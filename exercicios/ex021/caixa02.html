@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkslategray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+              
+        }
+        nav{
+            background-color: lightblue;
+            padding:3px ;
+              box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.233);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+        main{
+              background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0;
+            box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, 0.342);
+        }
+          article >aside{
+                background-color: lightslategray;
+        }
+
+         article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: rgba(17, 17, 65, 0.753);
+            padding: 1px;
+            margin: 0;
+            text-align: center;
+        }
+        footer p{
+            margin: 0;
+        }
+        div#bola {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>space atlas</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>oi</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam assumenda blanditiis iste delectus sit dicta inventore minus, qui, vero hic nostrum, sint autem non nobis. Ipsam nobis quia temporibus similique.</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>hello world</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem nisi tempore dolor laborum cum magni aut in facere perspiciatis sapiente soluta dolorum ipsam vel quod aspernatur, unde inventore quam.</p>
+                <aside>
+                    <p>artigo feito por kawan</p>
+                    
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate ullam necessitatibus repudiandae soluta earum ipsum aperiam, animi totam aspernatur, hic, suscipit nemo laborum? Quos labore sit fugiat nostrum temporibus.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>kawanzincrazy</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
