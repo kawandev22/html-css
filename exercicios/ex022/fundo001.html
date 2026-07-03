@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste de imagem de fundo </title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
          body{
             background-image: url(img/wallpaper001.jpg);
+         }
+         header{
+            width: 100%;
+            height: 40px;
+            margin: 15px;
+            text-align: center;
+            color: rgb(0, 15, 41);
+         }
+         main{
+            text-align: center;
          }
 
         div.quadrado{
@@ -16,7 +30,8 @@
             background-color: aliceblue;
             width: 300px;
             height: 300px;
-
+            margin: 5px;
+        
         }
         div#q1{
             background-color: skyblue;
@@ -25,19 +40,44 @@
             background-image: linear-gradient(to bottom, yellow, red);
         }
         div#q3{
-            background-image: url(img/pattern003.png);
+             background-image: linear-gradient(to right, rgb(73, 147, 216), rgba(14, 224, 14, 0.89));
+        }
+        div#q4{
+            background-image: linear-gradient(45deg, black, white);
+        }
+        div#q5{
+            background-image: radial-gradient(rgb(0, 255, 55), rgb(0, 128, 68));
+        }
+        div#q6{
+           background-image: url(img/pattern002.png);
+        }
+        div#q7{
+            background-image: url(img/pattern004.png);
+        }
+        div#q8{
+           background-image: url(img/pattern003.png);
         }
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1">
-
-    </div>
-    <div class="quadrado" id="q2">
-
-    </div>
-    <div class="quadrado" id="q3">
-
-    </div>
+    <header><h1>Criando diferentes imagens de fundo</h1></header>
+    <main>
+        <div class="quadrado" id="q1">
+        </div>
+        <div class="quadrado" id="q2">
+        </div>
+        <div class="quadrado" id="q3">
+        </div>
+        <div class="quadrado" id="q4">
+        </div>
+        <div class="quadrado" id="q5">
+        </div>
+        <div class="quadrado" id="q6">
+        </div>
+        <div class="quadrado" id="q7">
+        </div>
+        <div class="quadrado" id="q8">
+        </div>
+    </main>
 </body>
 </html>
